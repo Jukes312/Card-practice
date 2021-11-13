@@ -33,3 +33,38 @@ body {
   padding: 3rem 3rem;
   text-align: center;
 }
+
+/*plan*/
+.plan {
+  border-radius: 2rem;
+  background-color: ghostwhite;
+  padding: 3rem 3rem;
+  max-width: 40rem;
+  display: flex;
+}
+
+.plan__image {
+  height: 50px;
+  width: 50px;
+  padding: 1.5rem 1.5rem;
+  align-self: center;
+}
+
+.plan-image__container {
+  display: inline-flex;
+  background-color: lavender;
+  border-radius: 100%;
+  height: 50px;
+  align-self: center;
+}
+
+.plan__Link {
+  align-self: center;
+
+  flex-grow: 1;
+  text-align: right;
+}
+
+.plan__price {
+  padding-left: 15px;
+}
