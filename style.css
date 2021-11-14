@@ -68,3 +68,23 @@ body {
 .plan__price {
   padding-left: 15px;
 }
+
+/*btn*/
+
+.btn {
+  width: 100%;
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.btn--strech {
+  color: white;
+  background-color: royalblue;
+  box-shadow: 0 0 2rem 0 royalblue;
+}
+
+.btn--none {
+  color: darkgray;
+  background-color: transparent;
+}
