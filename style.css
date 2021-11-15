@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: lightblue;
+  background-color: black;
   padding: 5px 5px;
 }
 
@@ -20,13 +20,20 @@ body {
   box-shadow: 0 0 1px 0 grey;
   overflow: hidden;
   max-width: 50rem;
-  height: 70rem;
   margin: 0 auto;
 }
 
-.card__header {
-  height: 30%;
-  background-color: blue;
+.card__heading {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.card__para {
+  font-size: 1.5rem;
+}
+
+.header__image {
+  width: 100%;
 }
 
 .card__body {
@@ -38,9 +45,10 @@ body {
 .plan {
   border-radius: 2rem;
   background-color: ghostwhite;
-  padding: 3rem 3rem;
+  padding: 2rem 2rem;
   max-width: 40rem;
   display: flex;
+  margin-bottom: 2rem;
 }
 
 .plan__image {
@@ -60,6 +68,7 @@ body {
 
 .plan__Link {
   align-self: center;
+  font-size: 1.3rem;
 
   flex-grow: 1;
   text-align: right;
@@ -67,6 +76,11 @@ body {
 
 .plan__price {
   padding-left: 15px;
+}
+
+.plan__price p {
+  font-size: 1.5rem;
+  margin-top: 0;
 }
 
 /*btn*/
